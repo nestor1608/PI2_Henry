@@ -2,9 +2,6 @@ import streamlit as st
 
 st.image('https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png')
 st.title('Proyecto Individual 2 ')
-st.markdown('***')
-
-
 
 st.markdown('## Mercado Financiero')
 st.title('S&P 500')
@@ -24,11 +21,11 @@ La diversificacion es un buen "amortiguador" de perdidas, ya que si algun sector
 st.markdown('## Informacion Personal')
 
 st.markdown(''' 
-<p>Nombre: Nestor Javier Gentil</p>
+* Nombre: Nestor Javier Gentil
 
-<p>Correo: nestor_gentil@hotmail.com</p>
+* Correo: nestor_gentil@hotmail.com
 
-<p>Cohorte: 08</p>
+* Cohorte: 08
             ''')
 
 st.markdown('***')
