@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 from syp import *
 
-st.title('Información del ETLs del S&P 500')
+st.title('Indice bursatil del S&P 500')
 st.markdown('***')
 st.subheader('Crecimiento promedio por año')
 
