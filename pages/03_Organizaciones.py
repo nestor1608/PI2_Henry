@@ -48,9 +48,12 @@ if selecionados:
         st.plotly_chart(fig,use_container_width=True)
         datos = creci_porcentaje(grou)
         st.subheader('Porcentajes promedio de crecimiento mensuales')
-        fig=px.bar(datos[1])
-        st.plotly_chart(fig,use_container_width=True)
-        st.markdown(f'* _Porcentaje promedio de crecimiento mensual {datos[0]} %_  ')
+        try:
+            fig=px.bar(datos[1])
+            st.plotly_chart(fig,use_container_width=True)
+            st.markdown(f'* _Porcentaje promedio de crecimiento mensual {datos[0]} %_  ')
+        except ValueError:
+            st.warning('No hay suficientes datos')
 else:
     st.warning('Elija algunas empresas u organizaciones')
     
