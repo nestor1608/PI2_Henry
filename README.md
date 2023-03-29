@@ -1,8 +1,12 @@
-[imgsrc=&#39;https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png&#39;](imgsrc='https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png')
+<p align='center'>
+<img src ="https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png">
+<p>
 
-    [h1style=&#39;align:center&#39;](h1style='align:center') **PROYECTO INDIVIDUAL Nº2** `</h1>`
+<h1 align='center'>
+ <b>PROYECTO INDIVIDUAL Nº2</b>
+</h1>
 
-    `<h2>`SoyHenry Labs`</h2>`
+<h2>SoyHenry Labs</h2>
 
 <p><strong>Información personal</strong></p>
 

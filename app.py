@@ -6,18 +6,30 @@ st.markdown('***')
 
 
 
-st.markdown('## ¿Qué es y para qué sirve streamlit?')
+st.markdown('## Mercado Financiero')
+st.title('S&P 500')
 st.markdown('''
-Streamlit es una librería que permite crear `aplicaciones web` para Data Science y Machine Learning de forma rápida y sin necesidad de saber otro lenguaje de programación, debido a que son `desarrolladas puramente en Python`.
-Es compatible con las librerías más usadas en esta área, como Numpy, Pandas, Matplotlib, Seaborn, Scikit-Learn, Keras, PyTorch, etc.
+***
+
+* La diversificacion en la cartera de inversiones: la diversificacioncion  en inversiones, es la compra variada de activos financieros, se utiliza para reducir la expociosion al riesgo en cualquier eventualidad del mercado principalmente.
+
+
+* En otra parte tambien se utiliza para obtener mayor rentabilidad en las inversiones ya que si puntualizamos en un sector o empresas, no solo aumentamos el nivel de riesgos, sino que tambien podremos absorver o aumentar la rentabilidad de nuestras inverciones de otros sectores que se encuentren el alza.
+
+La diversificacion es un buen "amortiguador" de perdidas, ya que si algun sector sufre una crisis, como la *crisis del 2008* en el sector inmobiliario y/o finaciero que tambien afecto a otras empresas o sectores negativamente, pero resulto en el crecimiento de otros sectores como tecnologia,salud etc..
+
+***
 ''')
 
-st.markdown('## ¿Por qué Streamlit?')
-st.markdown('''
-Para tener un `dashboard en Python` necesitamos unir la manipulación de datos con la visualización, e incorporar interacción con el usuario.
-Para poder hacer esta unión sin tener que utilizar código específico para la creación de páginas webs, existen las `librerías Streamlit y Dash`. Ambas brindan un servicio para construir aplicaciones webs a través de datos trabajados en Python pero Stremlit, a diferencia de dash, no requiere experiencia en temas front-end (como CSS, Html u otro lenguaje) ni necesita grandes servidores de almacenamiento.
-Por esto, se recomienda utilizar Streamlit en proyectos en los cuales se necesite crear dashboards de forma `rápida, sencilla y sólo con lenguaje Python`. 
-''')
+st.markdown('## Informacion Personal')
+
+st.markdown(''' 
+<p>Nombre: Nestor Javier Gentil</p>
+
+<p>Correo: nestor_gentil@hotmail.com</p>
+
+<p>Cohorte: 08</p>
+            ''')
 
 st.markdown('***')
 st.write('## Enlaces')
