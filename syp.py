@@ -19,6 +19,9 @@ def ratio_month(anio,data):
     return month
 
 def creci_porcentaje(data):
-    f=data['Close'].pct_change()*100
-    cre = f.mean().round(3)
-    return cre, f
+    try:
+        f=data['Close'].pct_change()*100
+        cre = f.mean().round(2)
+        return cre, f
+    except AttributeError:
+        return 0,0

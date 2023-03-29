@@ -50,7 +50,7 @@ if selecionados:
         st.subheader('Porcentajes promedio de crecimiento mensuales')
         fig=px.bar(datos[1])
         st.plotly_chart(fig,use_container_width=True)
-        st.markdown(f'* _Porcentaje promedio de crecimiento de {datos[0]} %_  ')
+        st.markdown(f'* _Porcentaje promedio de crecimiento mensual {datos[0]} %_  ')
 else:
     st.warning('Elija algunas empresas u organizaciones')
     
